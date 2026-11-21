@@ -1,0 +1,18 @@
+[package]
+name = "newera-microkernel"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Newera OS Bare-Metal UEFI x86_64 Microkernel (no_std, zero Linux dependency)"
+
+[[bin]]
+name = "newera-kernel"
+path = "src/main.rs"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+opt-level = "s"
+lto = true

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / Shell
+shell/node_modules/
+shell/dist/
+shell/.vite/
+*.tsbuildinfo
+
+# Bare-Metal Microkernel Build Artifacts
+microkernel/target/
+build/
+
+# Runtime data (local user vault, semantic DB, keys)
+data/
+*.db
+*.db-wal
+*.db-shm
+*.key
+.env
+.env.local
+
+# OS / IDE / Agent internal state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+memory-bank/
+.agent/

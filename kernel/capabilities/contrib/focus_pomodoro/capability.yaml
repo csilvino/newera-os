@@ -1,0 +1,16 @@
+id: focus_pomodoro
+name: "Modo Foco & Pomodoro (Contrib)"
+version: "0.1.0"
+description: "Exemplo oficial de capacidade open-source da comunidade: cria uma sessão de foco profundo com timer real e metas."
+intents:
+  - focus_session
+keywords:
+  - foco
+  - pomodoro
+  - concentrar
+  - estudar
+  - deep work
+permissions:
+  network: false
+  vault: none
+  semantic_fs: read
